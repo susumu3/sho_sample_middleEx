@@ -483,7 +483,7 @@ input[type=submit] {
 }
 
 .fv {
-  background-image: url("/image/spa-header.png");
+  background-image: url(/image/spa-header.png);
   background-position: center;
   background-size: cover;
   min-height: 580px;
@@ -830,7 +830,7 @@ input[type=submit] {
 }
 .spa .sectionWrapper .spaIntroductionWrapper .spaIntroductionWrapper__introduction .introduction__description {
   position: absolute;
-  background-image: url("/image/room-introduction-bg.png");
+  background-image: url(/image/room-introduction-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 813px;
