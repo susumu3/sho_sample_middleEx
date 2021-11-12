@@ -1175,7 +1175,7 @@ input[type=submit] {
 }
 
 .recommended {
-  background-image: url(/image/bg02.png);
+  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/bg02.png?raw=true');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1340,7 +1340,7 @@ input[type=submit] {
 }
 
 .access {
-  background-image: url(/image/concept-bg.png);
+  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true');
   padding-bottom: 110px;
 }
 @media screen and (max-width: 519px) {
@@ -1465,7 +1465,7 @@ input[type=submit] {
 }
 
 .footer {
-  background: url(/image/footer_bg.png);
+  background: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/footer_bg.png?raw=true');
 }
 .footer .footerInner {
   max-width: 1180px;
