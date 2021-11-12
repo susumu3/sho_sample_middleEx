@@ -830,7 +830,7 @@ input[type=submit] {
 }
 .menu .sectionWrapper .menuIntroductionWrapper .menuIntroductionWrapper__introduction .introduction__description {
   position: absolute;
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/room-introduction-bg?raw=true');
+  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/room-introduction-bg.png?raw=true');
   background-repeat: no-repeat;
   background-size: cover;
   width: 813px;
