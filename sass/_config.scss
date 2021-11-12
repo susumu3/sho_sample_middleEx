@@ -1,0 +1,12 @@
+//カラー変数
+$textColorBlack: #000;
+$textColorWhite: #fff;
+
+// トランジション変数
+$transition: all .3s ease-in-out;
+
+// フォントサイズの計算を簡単にする
+$baseFontSize: 16;
+  @function rem($pixels) {
+    @return $pixels / $baseFontSize * 1rem;
+  } 

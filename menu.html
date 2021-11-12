@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="日本古来の素材と現代的表現を併せ持つ温泉旅館、石井花壇。伝統的「和」の息づく空間で、至極のひとときをお過ごしください。">
+  <!-- ファビコンの読み込み -->
+  <link rel="icon" type="image/png" href="image/logo01.png">
+  <!-- Swiper -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.css"/> -->
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Slick -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <!-- flatpickr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <!-- CSSファイル -->
+  <link rel="stylesheet" href="./css/menu_style.css">
+
+  <title> お料理 | 石井花壇 | 温海温泉旅館【公式サイト】</title>
+</head>
+<body>
+  <div class="hidden">
+  <!-- ヘッダー -->
+  <header class="header" >
+    <div class="header-wrapper header--flex-box">
+      <div class="siteLogo">
+        <a href="#" class="siteLogo__logo flex-box"><img
+          src="image/sub-header-logo@2x.png" alt="サイトロゴ">
+        </a>
+      </div>
+      <nav class="pc-global-menu">
+        <ul class="flex-box">
+          <li><a href="room.html">お部屋</a></li>
+          <li><a href="menu.html">お料理</a></li>
+          <li><a href="spa.html">温泉</a></li>
+        </ul>
+      </nav>
+      <a href="" class="header-btn js-modal-open">
+        <img src="image/calender.png" alt="">
+        宿泊予約</a>
+      <!-- SPバーガーボタン -->
+      <button type="button" class="button hamburger js-hamburger" aria-controls="js-glabal-menu" aria-expanded="false" aria-label="メニューを開閉する">
+        <span class="hamburger__line">
+        </span>
+      </button><!-- /SPバーガーボタン -->
+        <!-- SPバーガーメニュー -->
+        <div class="sp-global-menu" id="js-global-menu" aria-hidden="true">
+          <nav>
+            <ul>
+              <li><a id="js-global-menu__menu" href="room.html">お部屋</a></li>
+              <li><a id="js-global-menu__menu" href="menu.html">お料理</a></li>
+              <li><a id="js-global-menu__menu" href="spa.html">温泉</a></li>
+            </ul>
+          </nav>
+        </div><!-- /SPバーガーメニュー -->
+      <div class="drawer-background" id="js-drawer-background">
+    </div>
+  </header><!-- /ヘッダー -->
+
+  <!-- メイン -->
+  <main>
+  <!-- fv -->
+    <div class="fv">
+      <div class="fv__ttl">
+        <h1>お料理</h1>
+      </div><!-- /.fv__title -->
+
+      <!-- modal -->
+      <div class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <span class="js-modal-close cross"></span>
+          <div class="modal__content__inner">    
+            <p class="modal__content__ttl">宿泊予約</p>
+            <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdU7ToUeTOYLo7dHDFUB_xWK8jYaWYU0h0N-G-nfmNI3rsr8A/formResponse"
+            id="form">
+              <div class="box">
+                <label for="name">お名前</label>
+                <input type="text" name="entry.460368476"
+                id="name" placeholder="例:お名前" required>
+              </div>
+              <div class="box">
+                <label for="mail">メールアドレス</label>
+                <input type="mail" name="entry.1807081793"
+                id="mail" placeholder="例:Example@example.com" required>
+              </div>
+              <div class="box">
+                <label for="entry.2122042944">ご希望プラン（空いているプランのみ表示されます）</label>
+                <select name="entry.2122042944" required>
+                  <option value="" class="plan">プランを選択してください</option>
+                  <option value="1635186926744" name="entry.2122042944">①【期間限定】海辺の四季旬彩、贅沢美味懐石プラン</option>
+                  <option value="1635186971522" name="entry.2122042944">②平日に優雅に楽しむ、特別宿泊プラン</option>
+                  <option value="1635186985487" name="entry.2122042944">③絶景貸切露天と個室会席を満喫できるファミリープラン</option>
+                </select>
+              </div>
+              <div class="box">
+                <label for="js-datepicker">日付選択</label>
+                <input type="text" name="datepicker" id="js-datepicker" class="datepickerStyle" placeholder="日時を選択してください">
+              </div>
+              <input type="submit" id="js-submit" class="submit-btn" value="送信する">
+            </form>
+          </div><!-- /.modal__content__inner -->
+        </div><!--modal__content-->
+      </div><!-- /.modal -->
+    </div><!-- /.fv -->
+
+    <!-- menu -->
+    <section class="menu">
+      <div class="sectionWrapper">
+        <div class="breadcrumbs">
+          <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <!-- パンくず1つめ -->
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+              <a itemprop="item" href="index.html">
+                  <span itemprop="name">トップ</span>
+              </a>
+              <meta itemprop="position" content="1" />
+            </li>
+            <!-- パンくず2つめ -->
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+              <a itemprop="item" href="menu.html">
+                  <span itemprop="name">お料理</span>
+              </a>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </div><!-- /.breadcrumbs -->
+
+        <div class="menu__intro" data-aos="fade-up">
+          <p><span>地元熱海の市場で仕入れた</span><span>食材のみを使った食材をふんだんに使い、</span><br><span>大将の技が光る</span><span>「熱海料理」</span><br><span>四季ごと、日ごとに変化する</span><span>味わいを、どうぞご堪能ください。</span>
+          </p>
+        </div><!-- /.rooms__intro -->
+        <div class="menuIntroductionWrapper">
+
+          <div class="menuIntroductionWrapper__introduction" data-aos="fade-up">
+            <div class="introductionImageWrapper img1">
+              <img src="image/menu01.jpg" alt="温泉付き客室">
+            </div><!-- /.introductionImageWrapper -->
+            <div class="introduction__description int1">
+              <h2><span>地元食材にこだわった</span><span>会席料理</span></h2>
+              <p><span>みずみずしくほのかに甘い野菜、新鮮で味に深みがある魚介類、肉類。</span><br><span>旬の素材をそのままに生かす、経験に裏打ちされた確かな技。</span><span>四季ごと、日ごとに変化する味わいを、どうぞご堪能ください。</span></p>
+            </div><!-- /.introduction__description -->
+          </div><!-- /.roomIntroductionWrapper__introduction -->
+
+          <div class="menuIntroductionWrapper__introduction" data-aos="fade-up">
+            <div class="introductionImageWrapper img2">
+              <img src="image/menu02.jpg" alt="庭園付き客室">
+            </div><!-- /.introductionImageWrapper -->
+            <div class="introduction__description int2">
+              <h2><span>熱海の漁港で</span><span>目利きの品を</span></h2>
+              <p><span>石井花壇でお出しする料理はすべて料理長である大将の目利きで、</span><br><span>熱海の魚市場でその日のうちに仕入れたものを使用しております。</span><br><span>日本海の宝玉を十分にお楽しみください。</span></p>
+            </div><!-- /.introduction__description -->
+          </div><!-- /.roomIntroductionWrapper__introduction -->
+
+          <div class="menuIntroductionWrapper__introduction" data-aos="fade-up">
+            <div class="introductionImageWrapper img3">
+              <img src="image/menu03.jpg" alt="一般客室">
+            </div><!-- /.introductionImageWrapper -->
+            <div class="introduction__description int3">
+              <h2><span>食材が一流、</span><span>職人も一流</span></h2>
+              <p><span>石井花壇の料理人は料亭で20年経験を積んだものばかり。</span><br><span>その時の最も旬な食材を、最高の調理でお届けします。</span><br><span>また、お料理への細かいご要望にもお答えできますので、</span><br><span>お気軽にお申し付けください。</span></p>
+            </div><!-- /.introduction__description -->
+          </div><!-- /.roomIntroductionWrapper__introduction -->
+
+        </div><!-- /.roomIntroductionWrapper -->
+      </div><!-- /sectionWrapper -->
+    </section><!-- /.rooms -->
+  </main>
+    
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footerInner">
+      <nav class="footer-global-menu" data-aos="fade-up">
+        <ul>
+          <li><a href="room.html">お部屋</a></li>
+          <li><a href="menu.html">お料理</a></li>
+          <li><a href="spa.html">温泉</a></li>
+        </ul>
+      </nav>
+      <div class="footerLogo">
+        <img class="footerLogo__logo" src="image/logo02.png" alt="">
+        <img class="footerLogo__name" src="image\footer_logo.png" alt="footer logo">
+      </div><!-- /.sectionTtlWrapper -->
+      <p><span>〒000-0000</span><span>山形県鶴岡市xxxxxxxxxxx</span></p>
+      <a href="tel:00000000000"><span>TEL.000-0000-0000</span><span>FAX.00-0000-0000</span></a>
+    </div><!-- /.footerInner -->
+    <div class="copyright">
+      <small>Copyright &copy; 石井花壇 All Rights Reserved.</small>
+    </div><!-- /.copyright -->
+  </footer><!-- /footer -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js"></script> -->
+  <!-- <script src="./js/swiper.js"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/aos.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="./js/slick.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="//unpkg.com/flatpickr/dist/l10n/ja.js"></script>
+  <script src="./js/datepicker.js"></script>
+</div><!-- /.hidden -->
+</body>
+</html>
