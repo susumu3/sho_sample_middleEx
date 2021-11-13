@@ -260,10 +260,10 @@ input[type=submit] {
 }
 .header .header-wrapper .pc-global-menu ul li:not(:last-child) {
   padding-right: 30px;
+  font-weight: 800;
 }
 .header .header-wrapper .pc-global-menu ul li a {
   font-size: 1rem;
-  font-weight: normal;
 }
 @media screen and (max-width: 959px) {
   .header .header-wrapper .pc-global-menu {
@@ -286,7 +286,7 @@ input[type=submit] {
   text-align: center;
   width: 179px;
   height: 54px;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 0.875rem;
   line-height: 54px;
   color: #fff;
@@ -483,7 +483,7 @@ input[type=submit] {
 }
 
 .fv {
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/oheya-header.png?raw=true');
+  background-image: url("/image/oheya-header.png");
   background-position: center;
   background-size: cover;
   min-height: 580px;
@@ -826,7 +826,7 @@ input[type=submit] {
 }
 .rooms .sectionWrapper .roomIntroductionWrapper .roomIntroductionWrapper__introduction .introduction__description {
   position: absolute;
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/room-introduction-bg.png?raw=true');
+  background-image: url("/image/room-introduction-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 813px;
@@ -966,7 +966,7 @@ input[type=submit] {
 }
 
 .footer {
-  background: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/footer_bg.png?raw=true');
+  background: url(/image/footer_bg.png);
 }
 .footer .footerInner {
   max-width: 1180px;
