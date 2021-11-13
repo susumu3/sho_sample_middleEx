@@ -268,11 +268,11 @@ input[type=submit] {
 }
 .si-header .header-wrapper .pc-global-menu ul li:not(:last-child) {
   padding-right: 30px;
+  font-weight: 800;
 }
 .si-header .header-wrapper .pc-global-menu ul li a {
   color: #000;
   font-size: 1rem;
-  font-weight: normal;
 }
 @media screen and (max-width: 959px) {
   .si-header .header-wrapper .pc-global-menu {
@@ -285,7 +285,7 @@ input[type=submit] {
   text-align: center;
   width: 179px;
   height: 54px;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 0.875rem;
   line-height: 54px;
   color: #fff;
@@ -464,11 +464,11 @@ input[type=submit] {
 }
 .header .header-wrapper .pc-global-menu ul li:not(:last-child) {
   padding-right: 30px;
+  font-weight: 800;
 }
 .header .header-wrapper .pc-global-menu ul li a {
   color: #fff;
   font-size: 1rem;
-  font-weight: normal;
 }
 @media screen and (max-width: 959px) {
   .header .header-wrapper .pc-global-menu {
@@ -491,7 +491,7 @@ input[type=submit] {
   text-align: center;
   width: 179px;
   height: 54px;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 0.875rem;
   line-height: 54px;
   color: #fff;
