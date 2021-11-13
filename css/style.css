@@ -919,7 +919,7 @@ input[type=submit] {
 }
 
 .concept {
-  background-image: url(/image/concept-bg.png);
+  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true');
   min-height: 681px;
 }
 .concept .sectionWrapper {
