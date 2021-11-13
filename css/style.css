@@ -919,7 +919,7 @@ input[type=submit] {
 }
 
 .concept {
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true');
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true");
   min-height: 681px;
 }
 .concept .sectionWrapper {
@@ -980,6 +980,11 @@ input[type=submit] {
   letter-spacing: 0.15em;
   padding-top: 92px;
   padding-right: 105px;
+}
+@media screen and (max-width: 1179px) {
+  .concept .sectionWrapper .conceptContent__text {
+    padding-right: 80px;
+  }
 }
 @media screen and (max-width: 959px) {
   .concept .sectionWrapper .conceptContent__text {
@@ -1082,6 +1087,7 @@ input[type=submit] {
     width: 100%;
     height: auto;
     padding-left: 80px;
+    padding-right: 60px;
   }
 }
 @media screen and (max-width: 519px) {
@@ -1175,7 +1181,7 @@ input[type=submit] {
 }
 
 .recommended {
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/bg02.png?raw=true');
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/bg02.png?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1340,7 +1346,7 @@ input[type=submit] {
 }
 
 .access {
-  background-image: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true');
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true");
   padding-bottom: 110px;
 }
 @media screen and (max-width: 519px) {
@@ -1388,7 +1394,7 @@ input[type=submit] {
 @media screen and (max-width: 519px) {
   .access .sectionWrapper .directionWrapper .direction {
     margin-left: 0;
-    padding: 0 40px;
+    padding: 0 27px;
   }
 }
 .access .sectionWrapper .directionWrapper .direction h5 {
@@ -1465,7 +1471,7 @@ input[type=submit] {
 }
 
 .footer {
-  background: url('https://github.com/susumu3/sho_sample_middleEx/blob/main/image/footer_bg.png?raw=true');
+  background: url(/image/footer_bg.png);
 }
 .footer .footerInner {
   max-width: 1180px;
