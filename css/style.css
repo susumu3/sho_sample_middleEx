@@ -266,9 +266,11 @@ input[type=submit] {
 .si-header .header-wrapper .pc-global-menu {
   padding-left: 120px;
 }
+.si-header .header-wrapper .pc-global-menu ul li {
+  font-weight: 800;
+}
 .si-header .header-wrapper .pc-global-menu ul li:not(:last-child) {
   padding-right: 30px;
-  font-weight: 800;
 }
 .si-header .header-wrapper .pc-global-menu ul li a {
   color: #000;
@@ -462,9 +464,11 @@ input[type=submit] {
 .header .header-wrapper .pc-global-menu {
   padding-left: 120px;
 }
+.header .header-wrapper .pc-global-menu ul li {
+  font-weight: 800;
+}
 .header .header-wrapper .pc-global-menu ul li:not(:last-child) {
   padding-right: 30px;
-  font-weight: 800;
 }
 .header .header-wrapper .pc-global-menu ul li a {
   color: #fff;
