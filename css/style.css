@@ -1475,7 +1475,7 @@ input[type=submit] {
 }
 
 .footer {
-  background: url(/image/footer_bg.png);
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/footer_bg.png?raw=true");
 }
 .footer .footerInner {
   max-width: 1180px;
