@@ -485,7 +485,7 @@ input[type=submit] {
 }
 
 .fv {
-  background-image: url("/image/menu-header.png");
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/menu-header.png?raw=true");
   background-position: center;
   background-size: cover;
   min-height: 580px;
@@ -832,7 +832,7 @@ input[type=submit] {
 }
 .menu .sectionWrapper .menuIntroductionWrapper .menuIntroductionWrapper__introduction .introduction__description {
   position: absolute;
-  background-image: url("/image/room-introduction-bg.png");
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/room-introduction-bg.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   width: 813px;
@@ -976,7 +976,7 @@ input[type=submit] {
 }
 
 .footer {
-  background: url(/image/footer_bg.png);
+  background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/footer_bg.png?raw=true");
 }
 .footer .footerInner {
   max-width: 1180px;
