@@ -925,6 +925,8 @@ input[type=submit] {
 .concept {
   background-image: url("https://github.com/susumu3/sho_sample_middleEx/blob/main/image/concept-bg.png?raw=true");
   min-height: 681px;
+  display: flex;
+  justify-content: center;
 }
 .concept .sectionWrapper {
   padding-top: 62px;
