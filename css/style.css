@@ -976,7 +976,7 @@ input[type=submit] {
 @media screen and (max-width: 959px) {
   .concept .sectionWrapper .conceptContent__ttl h2 {
     text-indent: -2.5em;
-    padding-left: 3em;
+    padding-left: 4em;
     padding-top: 0;
     letter-spacing: 0.3em;
     margin-left: 5%;
