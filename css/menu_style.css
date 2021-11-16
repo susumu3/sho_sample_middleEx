@@ -523,7 +523,7 @@ input[type=submit] {
 @media screen and (max-width: 519px) {
   .modal .modal__content {
     top: 55%;
-    width: 280px;
+    width: 315px;
     overflow: scroll;
   }
 }
